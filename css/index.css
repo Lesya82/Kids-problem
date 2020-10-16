@@ -1,0 +1,87 @@
+
+
+
+:root{
+      --main-color: black;
+      font-family: Times, Times New Roman, Georgia, serif;
+}
+
+body {
+    max-width: 1300px;
+    margin: auto;
+}
+    
+header .menu-items {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    text-align: center;
+    margin: 5px 0 5px 0; 
+}
+header .menu-items a {
+    background:orange;
+    color:white;
+    padding: 2px;/*поле навколо тексту*/
+    width: 30%;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+header .menu-items a:hover {
+    background: white; /* Цвет фона под ссылкой */ 
+    color: orange; /* Цвет ссылки */ 
+    border: 5px solid orange;   
+   } 
+
+header .header-name h1{
+    display: flex;
+    align-items: center;
+    background:orange;
+    color:white;
+    min-height: 70px;
+    padding: 20px 0 20px 40px;
+    margin: 0;
+    font-size: 30px;
+    font-family: "Lucida Calligraphy", cursive;
+    }
+
+@media (min-width: 320px) {
+    .menu-items {
+        display: none;
+    }
+}
+
+
+.background-image{
+  background-image: url(../img/marta.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 900px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px 0 0 50px;
+  font-size: 1.1rem;
+  font-family: "Lucida Calligraphy", cursive;
+  text-align: center;
+}
+
+@media ( min-width: 1300px) {
+.background-image{
+    display: none;
+    }
+}
+
+
+
+footer {
+  width:100%;
+  background:white;
+  text-align:center;
+  font-size:20px;
+  height:80px;
+  display: block;
+}
+
+
